@@ -27,10 +27,7 @@ st.markdown("""
         font-family: 'Outfit', sans-serif;
     }
     
-    .stApp {
-        background-color: #0e1117;
-        color: #e0e6ed;
-    }
+    /* Theme-adaptive base settings */
     
     .title-banner {
         background: linear-gradient(135deg, #1e1b4b 0%, #311042 100%);
@@ -59,8 +56,8 @@ st.markdown("""
     }
     
     .card {
-        background: rgba(255, 255, 255, 0.02);
-        border: 1px solid rgba(255, 255, 255, 0.05);
+        background: var(--secondary-background-color);
+        border: 1px solid rgba(128, 128, 128, 0.1);
         border-radius: 1rem;
         padding: 1.8rem;
         margin-bottom: 1.5rem;
@@ -85,7 +82,7 @@ st.markdown("""
     .compatibility-title {
         font-size: 1.4rem;
         font-weight: 600;
-        color: #ffffff;
+        color: var(--text-color);
     }
     
     .fit-badge {
@@ -185,22 +182,11 @@ if menu == "🏠 Overview":
         
         with col1:
             st.subheader("Job Distributions by Domain")
-            # Bar chart of jobs by domain
-            fig, ax = plt.subplots(figsize=(6, 4))
-            fig.patch.set_facecolor('none')
-            ax.set_facecolor('none')
-            
             domain_counts = jobs_df['category'].value_counts()
-            sns.barplot(x=domain_counts.values, y=domain_counts.index, palette="viridis", ax=ax)
-            ax.tick_params(colors='white')
-            ax.xaxis.label.set_color('white')
-            ax.yaxis.label.set_color('white')
-            ax.spines['bottom'].set_color('white')
-            ax.spines['left'].set_color('white')
-            ax.spines['top'].set_visible(False)
-            ax.spines['right'].set_visible(False)
-            plt.title("Jobs per Category", color="white")
-            st.pyplot(fig)
+            chart_data = pd.DataFrame({
+                "Jobs Count": domain_counts.values
+            }, index=domain_counts.index)
+            st.bar_chart(chart_data, color="#818cf8")
             
         with col2:
             st.subheader("Overview of Career Domains")
@@ -288,23 +274,12 @@ elif menu == "🔍 Resume Matcher":
                     
             with col2:
                 st.markdown("### Profile Category Probabilities")
-                fig, ax = plt.subplots(figsize=(6, 4))
-                fig.patch.set_facecolor('none')
-                ax.set_facecolor('none')
-                
                 cats = list(probabilities.keys())
                 probs = list(probabilities.values())
-                
-                sns.barplot(x=probs, y=cats, palette="rocket", ax=ax)
-                ax.tick_params(colors='white')
-                ax.xaxis.label.set_color('white')
-                ax.yaxis.label.set_color('white')
-                ax.spines['bottom'].set_color('white')
-                ax.spines['left'].set_color('white')
-                ax.spines['top'].set_visible(False)
-                ax.spines['right'].set_visible(False)
-                plt.title("Classification Distribution (Confidence)", color="white")
-                st.pyplot(fig)
+                chart_data = pd.DataFrame({
+                    "Probability": probs
+                }, index=cats)
+                st.bar_chart(chart_data, color="#e879f9")
                 
             st.markdown("---")
             st.subheader("Top Job Recommendations")
@@ -328,7 +303,7 @@ elif menu == "🔍 Resume Matcher":
                 <div class="card">
                     <div class="compatibility-header">
                         <div>
-                            <span style="font-size: 1.4rem; font-weight: 700; color: white;">{rec['title']}</span><br/>
+                            <span style="font-size: 1.4rem; font-weight: 700; color: var(--text-color);">{rec['title']}</span><br/>
                             <span style="color: #a5b4fc;">{rec['company']} | 📍 {rec['location']}</span>
                         </div>
                         <div>
@@ -404,20 +379,10 @@ elif menu == "🕸️ Job Clusters":
         with col2:
             # Bar chart of cluster counts
             counts = clustered_df['cluster_display_name'].value_counts()
-            fig, ax = plt.subplots(figsize=(8, 5))
-            fig.patch.set_facecolor('none')
-            ax.set_facecolor('none')
-            
-            sns.barplot(x=counts.values, y=counts.index, palette="plasma", ax=ax)
-            ax.tick_params(colors='white')
-            ax.xaxis.label.set_color('white')
-            ax.yaxis.label.set_color('white')
-            ax.spines['bottom'].set_color('white')
-            ax.spines['left'].set_color('white')
-            ax.spines['top'].set_visible(False)
-            ax.spines['right'].set_visible(False)
-            plt.title("Number of Jobs in each Cluster", color="white")
-            st.pyplot(fig)
+            chart_data = pd.DataFrame({
+                "Jobs Count": counts.values
+            }, index=counts.index)
+            st.bar_chart(chart_data, color="#c084fc")
             
         st.markdown("---")
         st.subheader("Explore a Cluster")
