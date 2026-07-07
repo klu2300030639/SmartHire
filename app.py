@@ -232,6 +232,7 @@ elif menu == "🔍 Resume Matcher":
         
         if uploaded_file is not None:
             st.info(f"ℹ️ Active Profile: Uploaded Resume ({uploaded_file.name})")
+            uploaded_file.seek(0)  # Reset pointer to start of stream
             with tempfile.NamedTemporaryFile(delete=False, suffix=os.path.splitext(uploaded_file.name)[1]) as temp_file:
                 temp_file.write(uploaded_file.read())
                 temp_file_path = temp_file.name
@@ -248,12 +249,12 @@ elif menu == "🔍 Resume Matcher":
             resume_text = profile_row['text']
             candidate_name = profile_row['name']
             
-        if resume_text:
-            if not resume_text.strip():
-                st.warning("⚠️ No readable text could be extracted from this document. Please ensure it is a digital file (not a scanned image) containing selectable text.")
-                resume_text = ""
-                
-        if resume_text:
+        # Check for empty text
+        if (uploaded_file is not None or selected_sample != "-- Select --") and (not resume_text or not resume_text.strip()):
+            st.warning("⚠️ No readable text could be extracted from this document. Please ensure it is a digital file (not a scanned image) containing selectable text.")
+            resume_text = ""
+            
+        if resume_text and resume_text.strip():
             st.success("Resume parsed successfully!")
             
             try:
