@@ -1,4 +1,4 @@
-﻿import streamlit as st
+import streamlit as st
 import pandas as pd
 import numpy as np
 import os
@@ -134,6 +134,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Helper function to reload datasets
+@st.cache_data
 def load_datasets():
     if not os.path.exists("data/raw_resumes.csv") or not os.path.exists("data/raw_jobs.csv"):
         return None, None
@@ -230,6 +231,7 @@ elif menu == "🔍 Resume Matcher":
         candidate_name = "Candidate"
         
         if uploaded_file is not None:
+            st.info(f"ℹ️ Active Profile: Uploaded Resume ({uploaded_file.name})")
             with tempfile.NamedTemporaryFile(delete=False, suffix=os.path.splitext(uploaded_file.name)[1]) as temp_file:
                 temp_file.write(uploaded_file.read())
                 temp_file_path = temp_file.name
@@ -241,20 +243,30 @@ elif menu == "🔍 Resume Matcher":
             os.remove(temp_file_path)
             
         elif selected_sample != "-- Select --":
+            st.info(f"ℹ️ Active Profile: Sample Candidate ({selected_sample})")
             profile_row = resumes_df[resumes_df['name'] == selected_sample].iloc[0]
             resume_text = profile_row['text']
             candidate_name = profile_row['name']
             
         if resume_text:
+            if not resume_text.strip():
+                st.warning("⚠️ No readable text could be extracted from this document. Please ensure it is a digital file (not a scanned image) containing selectable text.")
+                resume_text = ""
+                
+        if resume_text:
             st.success("Resume parsed successfully!")
             
-            # Extract basic metadata
-            email = extract_email(resume_text)
-            phone = extract_phone(resume_text)
-            skills = extract_skills(resume_text)
-            
-            # Classify resume
-            predicted_cat, probabilities = predict_category(resume_text)
+            try:
+                # Extract basic metadata
+                email = extract_email(resume_text)
+                phone = extract_phone(resume_text)
+                skills = extract_skills(resume_text)
+                
+                # Classify resume
+                predicted_cat, probabilities = predict_category(resume_text)
+            except Exception as e:
+                st.error(f"❌ Error during profile extraction or classification: {e}")
+                st.stop()
             
             # Display profile layout
             col1, col2 = st.columns([1, 1])
@@ -359,7 +371,11 @@ elif menu == "🕸️ Job Clusters":
     else:
         st.subheader("Discover Job Segments via Unsupervised Learning")
         
-        clustered_df, themes = cluster_jobs_pipeline()
+        @st.cache_data
+        def get_clustered_data():
+            return cluster_jobs_pipeline()
+            
+        clustered_df, themes = get_clustered_data()
         
         # Display clusters
         col1, col2 = st.columns([1, 2])
