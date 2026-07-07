@@ -1,5 +1,7 @@
 ﻿# SmartHire: Resume-to-Job Matching & Career Guidance System
 
+🌐 **Live Demo**: [https://smarthire-ai-engine.streamlit.app/](https://smarthire-ai-engine.streamlit.app/)
+
 SmartHire is an AI-powered end-to-end recruitment and career guidance platform. The system parses resumes, classifies them into specific job categories using classical Machine Learning, matches them against relevant job listings using Cosine Similarity, performs automated skill-gap analysis, and structures job postings using K-Means clustering.
 
 ---
