@@ -2,6 +2,12 @@
 import os
 import pypdf
 import docx
+try:
+    from PIL import Image
+    import pytesseract
+    OCR_AVAILABLE = True
+except ImportError:
+    OCR_AVAILABLE = False
 
 # Custom list of standard English stopwords to avoid relying on nltk downloads
 STOPWORDS = set([
@@ -152,6 +158,23 @@ def parse_txt(file_path):
         print(f"Error parsing TXT {file_path}: {e}")
         return ""
 
+def parse_image(file_path):
+    """Parse text from an image file (JPG, JPEG, PNG) using OCR."""
+    if not OCR_AVAILABLE:
+        print("pytesseract or Pillow not installed. Cannot parse image files.")
+        return ""
+    try:
+        img = Image.open(file_path)
+        # Convert to RGB if needed (e.g., RGBA PNG)
+        if img.mode not in ('RGB', 'L'):
+            img = img.convert('RGB')
+        # Use pytesseract to extract text
+        text = pytesseract.image_to_string(img, lang='eng')
+        return text
+    except Exception as e:
+        print(f"Error parsing image {file_path}: {e}")
+        return ""
+
 def parse_resume(file_path):
     """Parses resume by delegating based on file type."""
     _, ext = os.path.splitext(file_path.lower())
@@ -159,5 +182,8 @@ def parse_resume(file_path):
         return parse_pdf(file_path)
     elif ext == '.docx':
         return parse_docx(file_path)
+    elif ext in ('.jpg', '.jpeg', '.png'):
+        return parse_image(file_path)
     else:
         return parse_txt(file_path)
+

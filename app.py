@@ -1,4 +1,4 @@
-import streamlit as st
+﻿import streamlit as st
 import pandas as pd
 import numpy as np
 import os
@@ -13,7 +13,7 @@ from src.clustering import cluster_jobs_pipeline, get_similar_jobs_in_cluster
 # Set page config
 st.set_page_config(
     page_title="SmartHire - AI Resume Matcher & Career Guide",
-    page_icon="💼",
+    page_icon="ðŸ’¼",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -154,26 +154,26 @@ st.markdown("""
 
 # Sidebar settings
 with st.sidebar:
-    st.markdown('<div class="sidebar-header">⚙️ System Control</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sidebar-header">âš™ï¸ System Control</div>', unsafe_allow_html=True)
     
     if resumes_df is None or jobs_df is None:
-        st.error("⚠️ Datasets not detected!")
+        st.error("âš ï¸ Datasets not detected!")
         if st.button("Generate Synthetic Datasets"):
             with st.spinner("Generating mock resumes and jobs..."):
                 from src.data_generation import create_datasets
                 create_datasets()
                 st.rerun()
     else:
-        st.success("✅ Datasets loaded successfully.")
+        st.success("âœ… Datasets loaded successfully.")
         st.metric("Total Jobs in Database", len(jobs_df))
         st.metric("Total Resumes in Database", len(resumes_df))
         
     st.markdown("---")
     st.markdown("### Navigation")
-    menu = st.radio("Go To:", ["🏠 Overview", "🔍 Resume Matcher", "🕸️ Job Clusters", "🛠️ Model Admin"])
+    menu = st.radio("Go To:", ["ðŸ  Overview", "ðŸ” Resume Matcher", "ðŸ•¸ï¸ Job Clusters", "ðŸ› ï¸ Model Admin"])
 
 # 1. OVERVIEW PAGE
-if menu == "🏠 Overview":
+if menu == "ðŸ  Overview":
     st.header("System Overview")
     
     if resumes_df is None or jobs_df is None:
@@ -201,7 +201,7 @@ if menu == "🏠 Overview":
             
         st.markdown("---")
         st.subheader("Quick Explore Jobs Database")
-        search_query = st.text_input("🔍 Search jobs by keyword (e.g. Python, SQL, UI/UX):")
+        search_query = st.text_input("ðŸ” Search jobs by keyword (e.g. Python, SQL, UI/UX):")
         if search_query:
             filtered_jobs = jobs_df[
                 jobs_df['title'].str.contains(search_query, case=False) |
@@ -213,14 +213,14 @@ if menu == "🏠 Overview":
             st.dataframe(jobs_df[['job_id', 'title', 'company', 'category', 'location', 'required_skills']].head(10))
 
 # 2. RESUME MATCHER PAGE
-elif menu == "🔍 Resume Matcher":
+elif menu == "ðŸ” Resume Matcher":
     st.header("Resume-to-Job Matching & Career Guidance")
     
     if resumes_df is None or jobs_df is None:
         st.warning("Please click 'Generate Synthetic Datasets' in the sidebar to populate the system.")
     else:
         st.subheader("Upload Candidate Resume")
-        uploaded_file = st.file_uploader("Upload resume (PDF, DOCX, or TXT format)", type=["pdf", "docx", "txt"])
+        uploaded_file = st.file_uploader("Upload resume (PDF, DOCX, TXT, JPG, or PNG format)", type=["pdf", "docx", "txt", "jpg", "jpeg", "png"])
         
         # Or load a sample resume from dataset for quick demo
         st.markdown("**OR** select a sample profile from our database:")
@@ -231,7 +231,7 @@ elif menu == "🔍 Resume Matcher":
         candidate_name = "Candidate"
         
         if uploaded_file is not None:
-            st.info(f"ℹ️ Active Profile: Uploaded Resume ({uploaded_file.name})")
+            st.info(f"â„¹ï¸ Active Profile: Uploaded Resume ({uploaded_file.name})")
             uploaded_file.seek(0)  # Reset pointer to start of stream
             with tempfile.NamedTemporaryFile(delete=False, suffix=os.path.splitext(uploaded_file.name)[1]) as temp_file:
                 temp_file.write(uploaded_file.read())
@@ -244,14 +244,14 @@ elif menu == "🔍 Resume Matcher":
             os.remove(temp_file_path)
             
         elif selected_sample != "-- Select --":
-            st.info(f"ℹ️ Active Profile: Sample Candidate ({selected_sample})")
+            st.info(f"â„¹ï¸ Active Profile: Sample Candidate ({selected_sample})")
             profile_row = resumes_df[resumes_df['name'] == selected_sample].iloc[0]
             resume_text = profile_row['text']
             candidate_name = profile_row['name']
             
         # Check for empty text
         if (uploaded_file is not None or selected_sample != "-- Select --") and (not resume_text or not resume_text.strip()):
-            st.warning("⚠️ No readable text could be extracted from this document. Please ensure it is a digital file (not a scanned image) containing selectable text.")
+            st.warning("âš ï¸ No readable text could be extracted from this document. Please ensure it is a digital file (not a scanned image) containing selectable text.")
             resume_text = ""
             
         if resume_text and resume_text.strip():
@@ -266,7 +266,7 @@ elif menu == "🔍 Resume Matcher":
                 # Classify resume
                 predicted_cat, probabilities = predict_category(resume_text)
             except Exception as e:
-                st.error(f"❌ Error during profile extraction or classification: {e}")
+                st.error(f"âŒ Error during profile extraction or classification: {e}")
                 st.stop()
             
             # Display profile layout
@@ -274,9 +274,9 @@ elif menu == "🔍 Resume Matcher":
             
             with col1:
                 st.markdown(f"### Candidate Profile: {candidate_name}")
-                st.write(f"📧 **Email:** {email if email else 'Not found'}")
-                st.write(f"📞 **Phone:** {phone if phone else 'Not found'}")
-                st.write(f"🏷️ **AI Classified Career Category:** `{predicted_cat}`")
+                st.write(f"ðŸ“§ **Email:** {email if email else 'Not found'}")
+                st.write(f"ðŸ“ž **Phone:** {phone if phone else 'Not found'}")
+                st.write(f"ðŸ·ï¸ **AI Classified Career Category:** `{predicted_cat}`")
                 
                 st.markdown("#### Extracted Skills")
                 if skills:
@@ -317,7 +317,7 @@ elif menu == "🔍 Resume Matcher":
                     <div class="compatibility-header">
                         <div>
                             <span style="font-size: 1.4rem; font-weight: 700; color: var(--text-color);">{rec['title']}</span><br/>
-                            <span style="color: #a5b4fc;">{rec['company']} | 📍 {rec['location']}</span>
+                            <span style="color: #a5b4fc;">{rec['company']} | ðŸ“ {rec['location']}</span>
                         </div>
                         <div>
                             <span style="color: {score_color}; font-size: 2rem; font-weight: 800;">{score}%</span><br/>
@@ -335,7 +335,7 @@ elif menu == "🔍 Resume Matcher":
                 
                 col_match, col_miss = st.columns(2)
                 with col_match:
-                    st.markdown('<div class="section-title">✔️ Matching Skills</div>', unsafe_allow_html=True)
+                    st.markdown('<div class="section-title">âœ”ï¸ Matching Skills</div>', unsafe_allow_html=True)
                     if matching:
                         m_badges = "".join([f'<span class="skill-badge skill-match">{s}</span>' for s in matching])
                         st.markdown(m_badges, unsafe_allow_html=True)
@@ -343,7 +343,7 @@ elif menu == "🔍 Resume Matcher":
                         st.write("No matching skills.")
                         
                 with col_miss:
-                    st.markdown('<div class="section-title">❌ Missing Skills (Gaps)</div>', unsafe_allow_html=True)
+                    st.markdown('<div class="section-title">âŒ Missing Skills (Gaps)</div>', unsafe_allow_html=True)
                     if missing:
                         mis_badges = "".join([f'<span class="skill-badge skill-missing">{s}</span>' for s in missing])
                         st.markdown(mis_badges, unsafe_allow_html=True)
@@ -351,7 +351,7 @@ elif menu == "🔍 Resume Matcher":
                         st.write("No missing skills!")
                 
                 # Actionable Career Guidance
-                st.markdown('<div class="section-title">📚 Career Guidance & Upskilling Recommendations</div>', unsafe_allow_html=True)
+                st.markdown('<div class="section-title">ðŸ“š Career Guidance & Upskilling Recommendations</div>', unsafe_allow_html=True)
                 if rec['guidance']:
                     for g in rec['guidance']:
                         st.write(f"- {g}")
@@ -364,7 +364,7 @@ elif menu == "🔍 Resume Matcher":
                 st.markdown("</div>", unsafe_allow_html=True)
 
 # 3. JOB CLUSTERS PAGE
-elif menu == "🕸️ Job Clusters":
+elif menu == "ðŸ•¸ï¸ Job Clusters":
     st.header("Job Cluster Map & Path Discovery (K-Means)")
     
     if resumes_df is None or jobs_df is None:
@@ -429,7 +429,7 @@ elif menu == "🕸️ Job Clusters":
                 st.markdown(f"- **{r['title']}** at *{r['company']}* ({r['location']}) - Skills: `{r['required_skills']}`")
 
 # 4. MODEL ADMIN PAGE
-elif menu == "🛠️ Model Admin":
+elif menu == "ðŸ› ï¸ Model Admin":
     st.header("Classifier Metrics & Job Submissions")
     
     if resumes_df is None or jobs_df is None:
@@ -438,7 +438,7 @@ elif menu == "🛠️ Model Admin":
         st.subheader("Resume Classifier Metrics")
         
         # Test training accuracy
-        if st.button("🔄 Retrain Classifier Model"):
+        if st.button("ðŸ”„ Retrain Classifier Model"):
             with st.spinner("Retraining Logistic Regression model..."):
                 accuracy, report = train_classifier()
                 st.success(f"Model retrained! New Accuracy: {accuracy:.4f}")
@@ -496,3 +496,4 @@ elif menu == "🛠️ Model Admin":
                     st.rerun()
                 else:
                     st.error("Please fill out all fields.")
+
