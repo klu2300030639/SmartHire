@@ -485,7 +485,7 @@ if menu == "🏠 Overview":
         st.subheader("Quick Explore Jobs Database")
 
 
-        search_query = st.text_input("📍 Search jobs by keyword (e.g. Python, SQL, UI/UX):")
+        search_query = st.text_input("🔍 Search jobs by keyword (e.g. Python, SQL, UI/UX):")
 
 
         if search_query:
@@ -599,7 +599,7 @@ elif menu == "📍 Resume Matcher":
         if (uploaded_file is not None or selected_sample != "-- Select --") and (not resume_text or not resume_text.strip()):
 
 
-            st.warning("⚠️ No readable text could be extracted from this document. Please ensure it is a digital file (not a scanned image) containing selectable text.")
+            st.warning("⚠️ No readable text could be extracted. Please ensure it is a digital (not scanned) file.")
 
 
             resume_text = ""
@@ -654,7 +654,7 @@ elif menu == "📍 Resume Matcher":
                 st.write(f"📞 **Phone:** {phone if phone else 'Not found'}")
 
 
-                st.write(f"🏷️ **AI Classified Career Category:** `{predicted_cat}`")
+                st.write(f"💻 **AI Classified Career Category:** `{predicted_cat}`")
 
                 st.markdown("#### Extracted Skills")
 
