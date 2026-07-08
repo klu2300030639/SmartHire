@@ -54,281 +54,102 @@ st.set_page_config(
 
 
 st.markdown("""
-
-
 <style>
-
-
     @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
-
     html, body, [class*="css"] {
-
-
         font-family: 'Outfit', sans-serif;
-
-
     }
-
     /* Theme-adaptive base settings */
-
     .title-banner {
-
-
         background: linear-gradient(135deg, #1e1b4b 0%, #311042 100%);
-
-
         border: 1px solid rgba(255, 255, 255, 0.05);
-
-
         border-radius: 1rem;
-
-
         padding: 2.5rem;
-
-
         margin-bottom: 2rem;
-
-
         text-align: center;
-
-
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-
-
     }
-
     .title-banner h1 {
-
-
         font-size: 3rem;
-
-
         font-weight: 700;
-
-
         margin: 0;
-
-
         background: linear-gradient(135deg, #818cf8 0%, #e879f9 100%);
-
-
         -webkit-background-clip: text;
-
-
         -webkit-text-fill-color: transparent;
-
-
     }
-
     .title-banner p {
-
-
         font-size: 1.2rem;
-
-
         color: #a5b4fc;
-
-
         margin-top: 0.5rem;
-
-
         margin-bottom: 0;
-
-
     }
-
     .card {
-
-
         background: var(--secondary-background-color);
-
-
         border: 1px solid rgba(128, 128, 128, 0.1);
-
-
         border-radius: 1rem;
-
-
         padding: 1.8rem;
-
-
         margin-bottom: 1.5rem;
-
-
         transition: all 0.3s ease;
-
-
     }
-
     .card:hover {
-
-
         border-color: rgba(139, 92, 246, 0.4);
-
-
         transform: translateY(-2px);
-
-
         box-shadow: 0 8px 24px rgba(139, 92, 246, 0.1);
-
-
     }
-
     .compatibility-header {
-
-
         display: flex;
-
-
         justify-content: space-between;
-
-
         align-items: center;
-
-
         margin-bottom: 1rem;
-
-
         border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-
-
         padding-bottom: 0.8rem;
-
-
     }
-
     .compatibility-title {
-
-
         font-size: 1.4rem;
-
-
         font-weight: 600;
-
-
         color: var(--text-color);
-
-
     }
-
     .fit-badge {
-
-
         font-size: 1.8rem;
-
-
         font-weight: 700;
-
-
         background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-
-
         -webkit-background-clip: text;
-
-
         -webkit-text-fill-color: transparent;
-
-
     }
-
     .skill-badge {
-
-
         display: inline-block;
-
-
         padding: 0.25rem 0.75rem;
-
-
         margin: 0.25rem;
-
-
         border-radius: 0.5rem;
-
-
         font-size: 0.85rem;
-
-
         font-weight: 600;
-
-
     }
-
     .skill-match {
-
-
         background-color: rgba(16, 185, 129, 0.12);
-
-
         color: #34d399;
-
-
         border: 1px solid rgba(16, 185, 129, 0.25);
-
-
     }
-
     .skill-missing {
-
-
         background-color: rgba(239, 68, 68, 0.12);
-
-
         color: #f87171;
-
-
         border: 1px solid rgba(239, 68, 68, 0.25);
-
-
     }
-
     .section-title {
-
-
         font-size: 1.2rem;
-
-
         font-weight: 600;
-
-
         color: #c084fc;
-
-
         margin-top: 1rem;
-
-
         margin-bottom: 0.5rem;
-
-
     }
-
     .sidebar-header {
-
-
         font-size: 1.5rem;
-
-
         font-weight: 700;
-
-
         margin-bottom: 1.5rem;
-
-
         background: linear-gradient(135deg, #818cf8 0%, #c084fc 100%);
-
-
         -webkit-background-clip: text;
-
-
         -webkit-text-fill-color: transparent;
-
-
     }
-
-
 </style>
-
-
 """, unsafe_allow_html=True)
 
 # Helper function to reload datasets
@@ -735,50 +556,20 @@ elif menu == "📍 Resume Matcher":
                     score_color = "#ef4444" # Red
 
                 st.markdown(f"""
-
-
                 <div class="card">
-
-
                     <div class="compatibility-header">
-
-
                         <div>
-
-
                             <span style="font-size: 1.4rem; font-weight: 700; color: var(--text-color);">{rec['title']}</span><br/>
-
-
                             <span style="color: #a5b4fc;">{rec['company']} | 📍 {rec['location']}</span>
-
-
                         </div>
-
-
                         <div>
-
-
                             <span style="color: {score_color}; font-size: 2rem; font-weight: 800;">{score}%</span><br/>
-
-
                             <span style="font-size: 0.8rem; color: #9ca3af; text-align: right; display: block;">Compatibility Fit</span>
-
-
                         </div>
-
-
                     </div>
-
-
                     <div style="font-size: 0.9rem; color: #9ca3af; margin-bottom: 1rem;">
-
-
                         <b>Score Breakdown:</b> Content Similarity: {rec['text_similarity_score']}% | Skill Match Rate: {rec['skill_match_score']}% | Domain Classification Match: {rec['category_match_score']}%
-
-
                     </div>
-
-
                 """, unsafe_allow_html=True)
 
                 # Show skill gap
