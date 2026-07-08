@@ -1,4 +1,4 @@
-﻿streamlit
+streamlit
 scikit-learn
 pandas
 numpy
@@ -6,6 +6,5 @@ pypdf
 python-docx
 matplotlib
 seaborn
-
 pytesseract
 pillow

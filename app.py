@@ -160,7 +160,6 @@ st.markdown("""
 
 def load_datasets():
 
-
     if not os.path.exists("data/raw_resumes.csv") or not os.path.exists("data/raw_jobs.csv"):
 
 
@@ -674,7 +673,6 @@ elif menu == "🕸️ Job Clusters":
 
         def get_clustered_data():
 
-
             return cluster_jobs_pipeline()
 
         clustered_df, themes = get_clustered_data()
@@ -959,4 +957,3 @@ elif menu == "🛠️ Model Admin":
 
 
                     st.error("Please fill out all fields.")
-
