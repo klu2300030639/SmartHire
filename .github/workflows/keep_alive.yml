@@ -2,8 +2,8 @@ name: Keep Streamlit App Awake
 
 on:
   schedule:
-    # Run every 6 hours to prevent Streamlit free tier from going to sleep
-    - cron: '0 */6 * * *'
+    # Run every 30 minutes to keep the app warm and prevent sleep
+    - cron: '*/30 * * * *'
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
 jobs:
