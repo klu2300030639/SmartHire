@@ -13,10 +13,6 @@ venv/
 ENV/
 
 # Data and Models caches
-models/resume_classifier.pkl
-models/tfidf_vectorizer.pkl
-data/raw_resumes.csv
-data/raw_jobs.csv
 
 # IDEs
 .vscode/

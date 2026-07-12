@@ -1,0 +1,1621 @@
+job_id,title,company,category,required_skills,min_experience,location,description
+JOB_001,Lead Developer,Amazon,Software Engineering,"Python, Multithreading, C++, Java, AWS, Spring Boot, Linux",8,"Pune, India","Job Title: Lead Developer
+    Company: Amazon
+    Location: Pune, India
+    Department: Software Engineering
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Lead Developer to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Python, Multithreading, C++ to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 8 years of professional experience in Software Engineering or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Python, Multithreading, C++, Java, AWS, Spring Boot, Linux.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_002,Software Engineer II,Netflix,Software Engineering,"Spring Boot, C++, Multithreading, REST APIs, Python, Microservices, Docker",2,"Remote, India","Job Title: Software Engineer II
+    Company: Netflix
+    Location: Remote, India
+    Department: Software Engineering
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Software Engineer II to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Spring Boot, C++, Multithreading to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 2 years of professional experience in Software Engineering or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Spring Boot, C++, Multithreading, REST APIs, Python, Microservices, Docker.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_003,Senior Backend Engineer,TCS,Software Engineering,"AWS, Multithreading, SQL, Hibernate, PostgreSQL, Kubernetes, REST APIs",3,"Mumbai, India","Job Title: Senior Backend Engineer
+    Company: TCS
+    Location: Mumbai, India
+    Department: Software Engineering
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Senior Backend Engineer to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like AWS, Multithreading, SQL to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 3 years of professional experience in Software Engineering or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: AWS, Multithreading, SQL, Hibernate, PostgreSQL, Kubernetes, REST APIs.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_004,Senior Backend Engineer,Wipro,Software Engineering,"Redis, Microservices, Docker, Multithreading, PostgreSQL, REST APIs",3,"Remote, India","Job Title: Senior Backend Engineer
+    Company: Wipro
+    Location: Remote, India
+    Department: Software Engineering
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Senior Backend Engineer to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Redis, Microservices, Docker to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 3 years of professional experience in Software Engineering or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Redis, Microservices, Docker, Multithreading, PostgreSQL, REST APIs.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_005,Senior Backend Engineer,Amazon,Software Engineering,"Java, Docker, C++, Git, Kubernetes",8,"Remote, India","Job Title: Senior Backend Engineer
+    Company: Amazon
+    Location: Remote, India
+    Department: Software Engineering
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Senior Backend Engineer to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Java, Docker, C++ to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 8 years of professional experience in Software Engineering or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Java, Docker, C++, Git, Kubernetes.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_006,Software Engineer II,TalentForge,Software Engineering,"Redis, Microservices, REST APIs, Python, Git, C++, AWS, Java",8,"Hyderabad, India","Job Title: Software Engineer II
+    Company: TalentForge
+    Location: Hyderabad, India
+    Department: Software Engineering
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Software Engineer II to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Redis, Microservices, REST APIs to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 8 years of professional experience in Software Engineering or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Redis, Microservices, REST APIs, Python, Git, C++, AWS, Java.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_007,Senior Backend Engineer,Infosys,Software Engineering,"Git, REST APIs, Hibernate, System Design, Maven",4,"Bengaluru, India","Job Title: Senior Backend Engineer
+    Company: Infosys
+    Location: Bengaluru, India
+    Department: Software Engineering
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Senior Backend Engineer to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Git, REST APIs, Hibernate to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 4 years of professional experience in Software Engineering or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Git, REST APIs, Hibernate, System Design, Maven.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_008,Java Software Engineer,TCS,Software Engineering,"SQL, Kubernetes, Git, System Design, Java, Python, Multithreading, Spring Boot",5,"Mumbai, India","Job Title: Java Software Engineer
+    Company: TCS
+    Location: Mumbai, India
+    Department: Software Engineering
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Java Software Engineer to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like SQL, Kubernetes, Git to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 5 years of professional experience in Software Engineering or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: SQL, Kubernetes, Git, System Design, Java, Python, Multithreading, Spring Boot.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_009,Systems Architect,Wipro,Software Engineering,"Microservices, Multithreading, AWS, Git, Linux, Redis",3,"Remote, India","Job Title: Systems Architect
+    Company: Wipro
+    Location: Remote, India
+    Department: Software Engineering
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Systems Architect to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Microservices, Multithreading, AWS to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 3 years of professional experience in Software Engineering or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Microservices, Multithreading, AWS, Git, Linux, Redis.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_010,Backend Developer,DataSystems,Software Engineering,"Spring Boot, Python, Microservices, Git, Linux, Java",8,"Mumbai, India","Job Title: Backend Developer
+    Company: DataSystems
+    Location: Mumbai, India
+    Department: Software Engineering
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Backend Developer to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Spring Boot, Python, Microservices to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 8 years of professional experience in Software Engineering or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Spring Boot, Python, Microservices, Git, Linux, Java.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_011,Computer Vision Specialist,CloudNets,Data Science,"Spark, Data Visualization, Jupyter, R, Statistics, Pandas, SQL",4,"Hyderabad, India","Job Title: Computer Vision Specialist
+    Company: CloudNets
+    Location: Hyderabad, India
+    Department: Data Science
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Computer Vision Specialist to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Spark, Data Visualization, Jupyter to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 4 years of professional experience in Data Science or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Spark, Data Visualization, Jupyter, R, Statistics, Pandas, SQL.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_012,Data Scientist,TCS,Data Science,"PyTorch, NLP, R, NumPy, Pandas, Hadoop, Data Visualization, Jupyter",5,"Remote, India","Job Title: Data Scientist
+    Company: TCS
+    Location: Remote, India
+    Department: Data Science
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Data Scientist to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like PyTorch, NLP, R to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 5 years of professional experience in Data Science or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: PyTorch, NLP, R, NumPy, Pandas, Hadoop, Data Visualization, Jupyter.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_013,AI Engineer,DesignStudio,Data Science,"Tableau, SQL, Deep Learning, Data Mining, Jupyter",2,"Bengaluru, India","Job Title: AI Engineer
+    Company: DesignStudio
+    Location: Bengaluru, India
+    Department: Data Science
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated AI Engineer to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Tableau, SQL, Deep Learning to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 2 years of professional experience in Data Science or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Tableau, SQL, Deep Learning, Data Mining, Jupyter.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_014,AI Engineer,Meta,Data Science,"Hadoop, Data Mining, Statistics, TensorFlow, Deep Learning",7,"Pune, India","Job Title: AI Engineer
+    Company: Meta
+    Location: Pune, India
+    Department: Data Science
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated AI Engineer to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Hadoop, Data Mining, Statistics to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 7 years of professional experience in Data Science or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Hadoop, Data Mining, Statistics, TensorFlow, Deep Learning.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_015,Data Engineer,Wipro,Data Science,"Hadoop, Python, Spark, SQL, Tableau, Data Mining, PyTorch, R",5,"Remote, India","Job Title: Data Engineer
+    Company: Wipro
+    Location: Remote, India
+    Department: Data Science
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Data Engineer to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Hadoop, Python, Spark to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 5 years of professional experience in Data Science or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Hadoop, Python, Spark, SQL, Tableau, Data Mining, PyTorch, R.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_016,AI Engineer,TalentForge,Data Science,"Scikit-learn, Data Mining, Statistics, TensorFlow, Deep Learning, Pandas, Tableau, Python",4,"Mumbai, India","Job Title: AI Engineer
+    Company: TalentForge
+    Location: Mumbai, India
+    Department: Data Science
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated AI Engineer to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Scikit-learn, Data Mining, Statistics to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 4 years of professional experience in Data Science or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Scikit-learn, Data Mining, Statistics, TensorFlow, Deep Learning, Pandas, Tableau, Python.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_017,AI Engineer,Wipro,Data Science,"Pandas, PyTorch, NLP, Spark, Data Mining, Hadoop, Deep Learning",4,"Remote, India","Job Title: AI Engineer
+    Company: Wipro
+    Location: Remote, India
+    Department: Data Science
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated AI Engineer to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Pandas, PyTorch, NLP to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 4 years of professional experience in Data Science or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Pandas, PyTorch, NLP, Spark, Data Mining, Hadoop, Deep Learning.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_018,Data Engineer,Wipro,Data Science,"Data Mining, Scikit-learn, Jupyter, NLP, TensorFlow, NumPy, R",8,"Remote, India","Job Title: Data Engineer
+    Company: Wipro
+    Location: Remote, India
+    Department: Data Science
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Data Engineer to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Data Mining, Scikit-learn, Jupyter to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 8 years of professional experience in Data Science or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Data Mining, Scikit-learn, Jupyter, NLP, TensorFlow, NumPy, R.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_019,Computer Vision Specialist,Infosys,Data Science,"SQL, NumPy, Spark, PyTorch, Statistics, Deep Learning, NLP, TensorFlow",5,"Remote, India","Job Title: Computer Vision Specialist
+    Company: Infosys
+    Location: Remote, India
+    Department: Data Science
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Computer Vision Specialist to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like SQL, NumPy, Spark to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 5 years of professional experience in Data Science or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: SQL, NumPy, Spark, PyTorch, Statistics, Deep Learning, NLP, TensorFlow.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_020,Data Scientist,CloudNets,Data Science,"Spark, Deep Learning, Pandas, Hadoop, Jupyter",2,"Bengaluru, India","Job Title: Data Scientist
+    Company: CloudNets
+    Location: Bengaluru, India
+    Department: Data Science
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Data Scientist to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Spark, Deep Learning, Pandas to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 2 years of professional experience in Data Science or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Spark, Deep Learning, Pandas, Hadoop, Jupyter.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_021,React Engineer,Wipro,Frontend Development,"Angular, TypeScript, Jest, Webpack, Sass",3,"Remote, India","Job Title: React Engineer
+    Company: Wipro
+    Location: Remote, India
+    Department: Frontend Development
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated React Engineer to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Angular, TypeScript, Jest to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 3 years of professional experience in Frontend Development or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Angular, TypeScript, Jest, Webpack, Sass.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_022,UI/UX Developer,Accenture,Frontend Development,"Responsive Design, Sass, Bootstrap, React, Vue.js",7,"Hyderabad, India","Job Title: UI/UX Developer
+    Company: Accenture
+    Location: Hyderabad, India
+    Department: Frontend Development
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated UI/UX Developer to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Responsive Design, Sass, Bootstrap to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 7 years of professional experience in Frontend Development or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Responsive Design, Sass, Bootstrap, React, Vue.js.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_023,Frontend Specialist,CloudNets,Frontend Development,"Redux, TypeScript, JavaScript, Sass, Vue.js",7,"Hyderabad, India","Job Title: Frontend Specialist
+    Company: CloudNets
+    Location: Hyderabad, India
+    Department: Frontend Development
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Frontend Specialist to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Redux, TypeScript, JavaScript to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 7 years of professional experience in Frontend Development or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Redux, TypeScript, JavaScript, Sass, Vue.js.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_024,UI Engineer,DesignStudio,Frontend Development,"Responsive Design, Figma, React, Jest, Sass, HTML5, Vue.js",4,"Remote, India","Job Title: UI Engineer
+    Company: DesignStudio
+    Location: Remote, India
+    Department: Frontend Development
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated UI Engineer to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Responsive Design, Figma, React to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 4 years of professional experience in Frontend Development or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Responsive Design, Figma, React, Jest, Sass, HTML5, Vue.js.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_025,Web Designer,StartUp Labs,Frontend Development,"UI/UX Design, Angular, Sass, JavaScript, Redux, GraphQL, HTML5, Tailwind CSS",3,"Remote, India","Job Title: Web Designer
+    Company: StartUp Labs
+    Location: Remote, India
+    Department: Frontend Development
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Web Designer to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like UI/UX Design, Angular, Sass to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 3 years of professional experience in Frontend Development or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: UI/UX Design, Angular, Sass, JavaScript, Redux, GraphQL, HTML5, Tailwind CSS.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_026,Web Designer,TCS,Frontend Development,"Redux, TypeScript, JavaScript, Vue.js, Jest, Angular, Tailwind CSS, GraphQL",3,"Pune, India","Job Title: Web Designer
+    Company: TCS
+    Location: Pune, India
+    Department: Frontend Development
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Web Designer to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Redux, TypeScript, JavaScript to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 3 years of professional experience in Frontend Development or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Redux, TypeScript, JavaScript, Vue.js, Jest, Angular, Tailwind CSS, GraphQL.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_027,Frontend Specialist,DesignStudio,Frontend Development,"Webpack, Jest, HTML5, Bootstrap, Vue.js",8,"Bengaluru, India","Job Title: Frontend Specialist
+    Company: DesignStudio
+    Location: Bengaluru, India
+    Department: Frontend Development
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Frontend Specialist to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Webpack, Jest, HTML5 to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 8 years of professional experience in Frontend Development or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Webpack, Jest, HTML5, Bootstrap, Vue.js.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_028,Frontend Specialist,Microsoft,Frontend Development,"CSS3, TypeScript, Tailwind CSS, Angular, HTML5, Responsive Design",5,"Bengaluru, India","Job Title: Frontend Specialist
+    Company: Microsoft
+    Location: Bengaluru, India
+    Department: Frontend Development
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Frontend Specialist to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like CSS3, TypeScript, Tailwind CSS to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 5 years of professional experience in Frontend Development or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: CSS3, TypeScript, Tailwind CSS, Angular, HTML5, Responsive Design.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_029,UI/UX Developer,DesignStudio,Frontend Development,"HTML5, Responsive Design, Tailwind CSS, Vue.js, JavaScript",7,"Pune, India","Job Title: UI/UX Developer
+    Company: DesignStudio
+    Location: Pune, India
+    Department: Frontend Development
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated UI/UX Developer to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like HTML5, Responsive Design, Tailwind CSS to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 7 years of professional experience in Frontend Development or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: HTML5, Responsive Design, Tailwind CSS, Vue.js, JavaScript.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_030,Senior Frontend Engineer,Wipro,Frontend Development,"Figma, Angular, UI/UX Design, JavaScript, Vue.js",6,"Bengaluru, India","Job Title: Senior Frontend Engineer
+    Company: Wipro
+    Location: Bengaluru, India
+    Department: Frontend Development
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Senior Frontend Engineer to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Figma, Angular, UI/UX Design to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 6 years of professional experience in Frontend Development or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Figma, Angular, UI/UX Design, JavaScript, Vue.js.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_031,Site Reliability Engineer (SRE),CloudNets,DevOps,"AWS, Grafana, Ansible, Terraform Cloud, Linux, Azure, Docker, Shell Scripting",8,"Remote, India","Job Title: Site Reliability Engineer (SRE)
+    Company: CloudNets
+    Location: Remote, India
+    Department: DevOps
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Site Reliability Engineer (SRE) to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like AWS, Grafana, Ansible to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 8 years of professional experience in DevOps or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: AWS, Grafana, Ansible, Terraform Cloud, Linux, Azure, Docker, Shell Scripting.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_032,Cloud Engineer,TalentForge,DevOps,"CI/CD, Shell Scripting, Linux, Ansible, Docker",8,"Hyderabad, India","Job Title: Cloud Engineer
+    Company: TalentForge
+    Location: Hyderabad, India
+    Department: DevOps
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Cloud Engineer to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like CI/CD, Shell Scripting, Linux to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 8 years of professional experience in DevOps or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: CI/CD, Shell Scripting, Linux, Ansible, Docker.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_033,Senior DevOps Specialist,Meta,DevOps,"Shell Scripting, CloudFormation, Ansible, GCP, Prometheus, Terraform, Jenkins, Git",4,"Pune, India","Job Title: Senior DevOps Specialist
+    Company: Meta
+    Location: Pune, India
+    Department: DevOps
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Senior DevOps Specialist to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Shell Scripting, CloudFormation, Ansible to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 4 years of professional experience in DevOps or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Shell Scripting, CloudFormation, Ansible, GCP, Prometheus, Terraform, Jenkins, Git.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_034,Site Reliability Engineer (SRE),TalentForge,DevOps,"CloudFormation, Terraform Cloud, Bash, Terraform, Ansible, GCP",3,"Bengaluru, India","Job Title: Site Reliability Engineer (SRE)
+    Company: TalentForge
+    Location: Bengaluru, India
+    Department: DevOps
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Site Reliability Engineer (SRE) to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like CloudFormation, Terraform Cloud, Bash to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 3 years of professional experience in DevOps or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: CloudFormation, Terraform Cloud, Bash, Terraform, Ansible, GCP.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_035,Senior DevOps Specialist,DesignStudio,DevOps,"Linux, GCP, CloudFormation, Ansible, CI/CD, Git, Prometheus",2,"Remote, India","Job Title: Senior DevOps Specialist
+    Company: DesignStudio
+    Location: Remote, India
+    Department: DevOps
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Senior DevOps Specialist to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Linux, GCP, CloudFormation to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 2 years of professional experience in DevOps or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Linux, GCP, CloudFormation, Ansible, CI/CD, Git, Prometheus.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_036,Kubernetes Administrator,DataSystems,DevOps,"AWS, Ansible, CloudFormation, Grafana, Git",2,"Remote, India","Job Title: Kubernetes Administrator
+    Company: DataSystems
+    Location: Remote, India
+    Department: DevOps
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Kubernetes Administrator to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like AWS, Ansible, CloudFormation to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 2 years of professional experience in DevOps or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: AWS, Ansible, CloudFormation, Grafana, Git.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_037,Senior DevOps Specialist,Google,DevOps,"Terraform Cloud, AWS, Grafana, Linux, Git",7,"Pune, India","Job Title: Senior DevOps Specialist
+    Company: Google
+    Location: Pune, India
+    Department: DevOps
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Senior DevOps Specialist to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Terraform Cloud, AWS, Grafana to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 7 years of professional experience in DevOps or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Terraform Cloud, AWS, Grafana, Linux, Git.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_038,Kubernetes Administrator,Amazon,DevOps,"Terraform, Linux, Kubernetes, CloudFormation, Bash, Terraform Cloud",7,"Remote, India","Job Title: Kubernetes Administrator
+    Company: Amazon
+    Location: Remote, India
+    Department: DevOps
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Kubernetes Administrator to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Terraform, Linux, Kubernetes to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 7 years of professional experience in DevOps or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Terraform, Linux, Kubernetes, CloudFormation, Bash, Terraform Cloud.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_039,Platform Engineer,StartUp Labs,DevOps,"GCP, Terraform, Linux, CI/CD, Shell Scripting, Kubernetes, Ansible, Azure",6,"Mumbai, India","Job Title: Platform Engineer
+    Company: StartUp Labs
+    Location: Mumbai, India
+    Department: DevOps
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Platform Engineer to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like GCP, Terraform, Linux to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 6 years of professional experience in DevOps or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: GCP, Terraform, Linux, CI/CD, Shell Scripting, Kubernetes, Ansible, Azure.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_040,Platform Engineer,Google,DevOps,"Kubernetes, Bash, Docker, CloudFormation, Prometheus, AWS",2,"Hyderabad, India","Job Title: Platform Engineer
+    Company: Google
+    Location: Hyderabad, India
+    Department: DevOps
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Platform Engineer to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Kubernetes, Bash, Docker to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 2 years of professional experience in DevOps or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Kubernetes, Bash, Docker, CloudFormation, Prometheus, AWS.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_041,Product Owner,FintechHub,Product Management,"Jira, A/B Testing, SQL, Wireframing, Customer Feedback, Data-driven Decisions, Cross-functional Leadership, Agile",3,"Bengaluru, India","Job Title: Product Owner
+    Company: FintechHub
+    Location: Bengaluru, India
+    Department: Product Management
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Product Owner to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Jira, A/B Testing, SQL to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 3 years of professional experience in Product Management or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Jira, A/B Testing, SQL, Wireframing, Customer Feedback, Data-driven Decisions, Cross-functional Leadership, Agile.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_042,Growth Product Manager,Meta,Product Management,"Product Lifecycle, Scrum, Cross-functional Leadership, SQL, A/B Testing",8,"Remote, India","Job Title: Growth Product Manager
+    Company: Meta
+    Location: Remote, India
+    Department: Product Management
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Growth Product Manager to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Product Lifecycle, Scrum, Cross-functional Leadership to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 8 years of professional experience in Product Management or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Product Lifecycle, Scrum, Cross-functional Leadership, SQL, A/B Testing.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_043,Product Manager,StartUp Labs,Product Management,"Data-driven Decisions, Product Lifecycle, Jira, Roadmap, User Research, Product Strategy",5,"Remote, India","Job Title: Product Manager
+    Company: StartUp Labs
+    Location: Remote, India
+    Department: Product Management
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Product Manager to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Data-driven Decisions, Product Lifecycle, Jira to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 5 years of professional experience in Product Management or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Data-driven Decisions, Product Lifecycle, Jira, Roadmap, User Research, Product Strategy.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_044,Growth Product Manager,Google,Product Management,"Scrum, Confluence, Product Lifecycle, SQL, Market Analysis, Data-driven Decisions",8,"Remote, India","Job Title: Growth Product Manager
+    Company: Google
+    Location: Remote, India
+    Department: Product Management
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Growth Product Manager to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Scrum, Confluence, Product Lifecycle to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 8 years of professional experience in Product Management or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Scrum, Confluence, Product Lifecycle, SQL, Market Analysis, Data-driven Decisions.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_045,Product Manager,TalentForge,Product Management,"Roadmap, Jira, KPI Tracking, A/B Testing, Wireframing, Agile, Confluence",8,"Pune, India","Job Title: Product Manager
+    Company: TalentForge
+    Location: Pune, India
+    Department: Product Management
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Product Manager to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Roadmap, Jira, KPI Tracking to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 8 years of professional experience in Product Management or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Roadmap, Jira, KPI Tracking, A/B Testing, Wireframing, Agile, Confluence.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_046,Associate Product Manager,Netflix,Product Management,"Data-driven Decisions, SQL, Jira, Customer Feedback, Scrum, Confluence",7,"Mumbai, India","Job Title: Associate Product Manager
+    Company: Netflix
+    Location: Mumbai, India
+    Department: Product Management
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Associate Product Manager to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Data-driven Decisions, SQL, Jira to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 7 years of professional experience in Product Management or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Data-driven Decisions, SQL, Jira, Customer Feedback, Scrum, Confluence.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_047,Product Owner,DesignStudio,Product Management,"Customer Feedback, SQL, Data-driven Decisions, KPI Tracking, User Research, Scrum",4,"Hyderabad, India","Job Title: Product Owner
+    Company: DesignStudio
+    Location: Hyderabad, India
+    Department: Product Management
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Product Owner to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Customer Feedback, SQL, Data-driven Decisions to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 4 years of professional experience in Product Management or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Customer Feedback, SQL, Data-driven Decisions, KPI Tracking, User Research, Scrum.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_048,Product Owner,Netflix,Product Management,"Cross-functional Leadership, A/B Testing, Product Lifecycle, Market Analysis, KPI Tracking",6,"Bengaluru, India","Job Title: Product Owner
+    Company: Netflix
+    Location: Bengaluru, India
+    Department: Product Management
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Product Owner to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Cross-functional Leadership, A/B Testing, Product Lifecycle to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 6 years of professional experience in Product Management or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Cross-functional Leadership, A/B Testing, Product Lifecycle, Market Analysis, KPI Tracking.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_049,Growth Product Manager,StartUp Labs,Product Management,"Customer Feedback, Market Analysis, KPI Tracking, Confluence, Data-driven Decisions, Product Lifecycle, Agile, Scrum",3,"Mumbai, India","Job Title: Growth Product Manager
+    Company: StartUp Labs
+    Location: Mumbai, India
+    Department: Product Management
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Growth Product Manager to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Customer Feedback, Market Analysis, KPI Tracking to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 3 years of professional experience in Product Management or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Customer Feedback, Market Analysis, KPI Tracking, Confluence, Data-driven Decisions, Product Lifecycle, Agile, Scrum.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_050,Associate Product Manager,CloudNets,Product Management,"Roadmap, Jira, Customer Feedback, Product Lifecycle, Scrum, A/B Testing, User Research",8,"Hyderabad, India","Job Title: Associate Product Manager
+    Company: CloudNets
+    Location: Hyderabad, India
+    Department: Product Management
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Associate Product Manager to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Roadmap, Jira, Customer Feedback to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 8 years of professional experience in Product Management or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Roadmap, Jira, Customer Feedback, Product Lifecycle, Scrum, A/B Testing, User Research.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_051,Technical Recruiter,TalentForge,Human Resources,"Interviewing, FMLA, Employee Relations, Talent Acquisition, Sourcing, HRIS, Performance Management, Payroll",4,"Remote, India","Job Title: Technical Recruiter
+    Company: TalentForge
+    Location: Remote, India
+    Department: Human Resources
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Technical Recruiter to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Interviewing, FMLA, Employee Relations to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 4 years of professional experience in Human Resources or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Interviewing, FMLA, Employee Relations, Talent Acquisition, Sourcing, HRIS, Performance Management, Payroll.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_052,Head of People & Culture,TalentForge,Human Resources,"Payroll, Diversity & Inclusion, Talent Acquisition, Recruiting, Compliance, Onboarding, Conflict Resolution, FMLA",5,"Hyderabad, India","Job Title: Head of People & Culture
+    Company: TalentForge
+    Location: Hyderabad, India
+    Department: Human Resources
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Head of People & Culture to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Payroll, Diversity & Inclusion, Talent Acquisition to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 5 years of professional experience in Human Resources or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Payroll, Diversity & Inclusion, Talent Acquisition, Recruiting, Compliance, Onboarding, Conflict Resolution, FMLA.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_053,HR Coordinator,TalentForge,Human Resources,"HRIS, Compliance, ATS (Applicant Tracking Systems), Performance Management, FMLA, HR Policies",7,"Remote, India","Job Title: HR Coordinator
+    Company: TalentForge
+    Location: Remote, India
+    Department: Human Resources
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated HR Coordinator to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like HRIS, Compliance, ATS (Applicant Tracking Systems) to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 7 years of professional experience in Human Resources or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: HRIS, Compliance, ATS (Applicant Tracking Systems), Performance Management, FMLA, HR Policies.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_054,Employee Relations Specialist,CloudNets,Human Resources,"Compliance, Sourcing, ATS (Applicant Tracking Systems), Interviewing, Onboarding, Payroll, HR Policies",5,"Bengaluru, India","Job Title: Employee Relations Specialist
+    Company: CloudNets
+    Location: Bengaluru, India
+    Department: Human Resources
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Employee Relations Specialist to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Compliance, Sourcing, ATS (Applicant Tracking Systems) to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 5 years of professional experience in Human Resources or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Compliance, Sourcing, ATS (Applicant Tracking Systems), Interviewing, Onboarding, Payroll, HR Policies.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_055,Talent Acquisition Specialist,Amazon,Human Resources,"FMLA, Recruiting, HRIS, HR Policies, Onboarding, Interviewing, Performance Management",3,"Remote, India","Job Title: Talent Acquisition Specialist
+    Company: Amazon
+    Location: Remote, India
+    Department: Human Resources
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Talent Acquisition Specialist to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like FMLA, Recruiting, HRIS to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 3 years of professional experience in Human Resources or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: FMLA, Recruiting, HRIS, HR Policies, Onboarding, Interviewing, Performance Management.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_056,Technical Recruiter,Netflix,Human Resources,"Interviewing, HR Policies, FMLA, Conflict Resolution, Sourcing",4,"Bengaluru, India","Job Title: Technical Recruiter
+    Company: Netflix
+    Location: Bengaluru, India
+    Department: Human Resources
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Technical Recruiter to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Interviewing, HR Policies, FMLA to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 4 years of professional experience in Human Resources or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Interviewing, HR Policies, FMLA, Conflict Resolution, Sourcing.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_057,HR Coordinator,Amazon,Human Resources,"HRIS, FMLA, Performance Management, Diversity & Inclusion, ATS (Applicant Tracking Systems)",3,"Remote, India","Job Title: HR Coordinator
+    Company: Amazon
+    Location: Remote, India
+    Department: Human Resources
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated HR Coordinator to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like HRIS, FMLA, Performance Management to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 3 years of professional experience in Human Resources or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: HRIS, FMLA, Performance Management, Diversity & Inclusion, ATS (Applicant Tracking Systems).
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_058,HR Coordinator,Netflix,Human Resources,"HRIS, Sourcing, Talent Acquisition, HR Policies, Diversity & Inclusion, Employee Relations",5,"Bengaluru, India","Job Title: HR Coordinator
+    Company: Netflix
+    Location: Bengaluru, India
+    Department: Human Resources
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated HR Coordinator to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like HRIS, Sourcing, Talent Acquisition to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 5 years of professional experience in Human Resources or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: HRIS, Sourcing, Talent Acquisition, HR Policies, Diversity & Inclusion, Employee Relations.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_059,HR Manager,DesignStudio,Human Resources,"Payroll, Recruiting, Diversity & Inclusion, Performance Management, Conflict Resolution",8,"Hyderabad, India","Job Title: HR Manager
+    Company: DesignStudio
+    Location: Hyderabad, India
+    Department: Human Resources
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated HR Manager to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Payroll, Recruiting, Diversity & Inclusion to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 8 years of professional experience in Human Resources or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Payroll, Recruiting, Diversity & Inclusion, Performance Management, Conflict Resolution.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
+JOB_060,Employee Relations Specialist,Wipro,Human Resources,"Onboarding, HR Policies, Recruiting, Payroll, HRIS",3,"Bengaluru, India","Job Title: Employee Relations Specialist
+    Company: Wipro
+    Location: Bengaluru, India
+    Department: Human Resources
+    
+    ABOUT THE ROLE
+    We are looking for a talented and motivated Employee Relations Specialist to join our growing team. In this role, 
+    you will design, build, and optimize solutions to push the boundaries of technology. You 
+    will work closely with engineering, product, and business stakeholders.
+    
+    RESPONSIBILITIES
+    - Develop, test, and maintain high-performance applications and services.
+    - Write clean, maintainable, and efficient code/models.
+    - Troubleshoot, debug, and upgrade existing systems.
+    - Leverage technologies like Onboarding, HR Policies, Recruiting to build scalable systems.
+    - Participate in code reviews, technical architecture planning, and agile standups.
+    
+    REQUIREMENTS
+    - Minimum 3 years of professional experience in Human Resources or related fields.
+    - Bachelor's or Master's degree in Computer Science, Business, or equivalent.
+    - Strong proficiency in: Onboarding, HR Policies, Recruiting, Payroll, HRIS.
+    - Excellent problem-solving skills and communication.
+    
+    BENEFITS
+    - Competitive salary and health benefits.
+    - Flexible working hours and remote work options.
+    - Continuous learning and career development opportunities."
