@@ -158,7 +158,7 @@ st.markdown("""
 @st.cache_data
 
 
-def load_datasets():
+def load_datasets_v2():
 
     if not os.path.exists("data/raw_resumes.csv") or not os.path.exists("data/raw_jobs.csv"):
 
@@ -174,7 +174,7 @@ def load_datasets():
 
     return res_df, jobs_df
 
-resumes_df, jobs_df = load_datasets()
+resumes_df, jobs_df = load_datasets_v2()
 
 # Application Layout
 
