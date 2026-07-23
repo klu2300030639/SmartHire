@@ -1,0 +1,27 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+dist/
+build/
+
+# SQLite Database (auto-regenerated on startup)
+*.db
+*.sqlite3
+
+# Node Modules
+frontend-react/node_modules/
+frontend-react/dist/
+frontend-react/.vite/
+
+# Java / Maven
+backend-spring/target/
+
+# IDE / OS Files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log

@@ -1,0 +1,44 @@
+﻿version: '3.8'
+services:
+  db:
+    image: mysql:8.0
+    container_name: shms-db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: HealthcareDB
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./database.sql:/docker-entrypoint-initdb.d/database.sql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-proot"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  ai-services:
+    build: ./ai-fastapi
+    container_name: shms-ai
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+
+  hims-dashboard:
+    build: .
+    container_name: shms-dashboard
+    ports:
+      - "8501:8501"
+    environment:
+      - DB_HOST=db
+      - DB_PORT=3306
+      - DB_DATABASE=HealthcareDB
+      - DB_USER=root
+      - DB_PASSWORD=root
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  db_data:
